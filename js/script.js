@@ -4,7 +4,7 @@
 var accounts = ['1@gmail.com', '2@gmail.com', '3@gmail.com', '4@gmail.com', '5@gmail.com'];
 
 // Prompt per richiesta all'utente di inserimento dell'email
-var mail = prompt('Inserisci il tuo indirizzo email').toLowerCase;
+var mail = prompt('Inserisci il tuo indirizzo email').toLowerCase();
 
 // Variabile creata ad hoc ipotizzando che la mail inserita sia errata
 var mailName = false;
@@ -19,7 +19,7 @@ for (var i = 0; i < accounts.length; i++) {
 }
 
 if (mailName == true) {
-    document.getElementById('mail').innerHTML = 'La mail inserita risulta valida';
+    document.getElementById('mail').innerHTML = 'La mail inserita risulta valida, procedere con il login';
     console.log('La mail inserita risulta valida');
 }
 
